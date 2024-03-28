@@ -1,0 +1,38 @@
+{
+  "name": "Generic FrontEnd",
+  "primaryColor": "#FF0000",
+  "secondaryColor": "#0000FF",
+  "map": {
+    "coordinates": [
+      41.128,
+      16.874
+    ],
+    "zoom": 14
+  },
+  "contacts": {
+    "phone": "666 333 1234",
+    "mail": "bro@fra.mail.it",
+    "address": "Via Scappa Scappa 123, San Giorgio",
+    "facebook": "facebook.it/bro.fra"
+  },
+  "gallery": {
+    "slide1": "https://w0.peakpx.com/wallpaper/757/791/HD-wallpaper-code-programming-it-technology-thumbnail.jpg",
+    "slide2": "https://thumbs.dreamstime.com/b/indian-business-man-software-developer-working-laptop-office-vertical-busy-engineer-computer-male-administrator-programmer-299211880.jpg",
+    "slide3": "https://i.pinimg.com/564x/2e/69/a6/2e69a64e8b3e4a7e524ff5d11ea70b90.jpg"
+  },
+  "services": {
+    "Siamo fortissimi": "Davvero davvero fortissimi",
+    "Facciamo software ad occhi chiusi": "Conta fino 10, quando finisci ho già fatto 15 siti web",
+    "Siamo fortissimi 2": "Davvero davvero fortissimi",
+    "Facciamo software ad occhi chiusi 2": "Conta fino 10, quando finisci ho già fatto 15 siti web"
+  },
+  "advantages": {
+    "Testo AB": {
+      "image": "https://thumbs.dreamstime.com/b/indian-business-man-software-developer-working-laptop-office-vertical-busy-engineer-computer-male-administrator-programmer-299211880.jpg",
+      "text": "Scrivo questo codice dopo aver bevuto 5 peroni e innumerevoli spinelli"
+    },
+    "Seconda Card": {
+      "image": "https://i.pinimg.com/564x/2e/69/a6/2e69a64e8b3e4a7e524ff5d11ea70b90.jpg"
+    }
+  }
+}

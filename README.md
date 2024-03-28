@@ -1,2 +1,1 @@
-# Linktree
- 
+# Generic FrontEnd
