@@ -53,8 +53,15 @@ const links = ref([
   align-items: center;
 }
 
+.avatar img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
 /* Personalizzazione dello stile dei bottoni */
 .v-btn.link-button {
   margin-bottom: 8px; /* Aggiungi spazio tra i bottoni */
 }
 </style>
+
