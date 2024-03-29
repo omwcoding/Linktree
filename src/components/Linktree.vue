@@ -9,7 +9,7 @@
               </v-avatar>
             </v-col>
             <v-col cols="12" md="12">
-              <v-card-title class="text-h5 text-center">I link dei Bro Users</v-card-title>
+              <v-card-title class="text-h5 text-center title-card">I link dei Bro Users</v-card-title>
             </v-col>
           </v-row>
             <v-row justify="center">
@@ -35,8 +35,8 @@
 import { ref } from 'vue';
 
 const links = ref([
-  { name: 'Instagram', url: 'https://instagram.com', icon: 'mdi-instagram' },
-  { name: 'Telegram', url: 'https://t.me', icon: 'mdi-telegram' },
+  { name: 'Instagram', url: 'https://instagram.com/bro__users', icon: 'mdi-instagram' },
+  { name: 'Wannight Bot', url: 'https://t.me/wannight_bot', icon: 'mdi-telegram' },
   { name: 'Chi siamo', url: '/#/brousers', icon: 'mdi-account' },
   { name: 'Contatti', url: '/#/contatti', icon: 'mdi-email' },
 ]);
@@ -59,9 +59,13 @@ const links = ref([
   object-fit: cover;
 }
 
-/* Personalizzazione dello stile dei bottoni */
 .v-btn.link-button {
-  margin-bottom: 8px; /* Aggiungi spazio tra i bottoni */
+  margin-bottom: 8px;
+}
+
+.title-card {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 10px;
 }
 </style>
-
