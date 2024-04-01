@@ -13,7 +13,7 @@ const routes = [
       {
         path: "/brousers",
         name: "I Bro Users",
-        component: () => import("@/views/Brousers.vue")
+        component: () => import("@/views/BroUsers.vue")
       },
       {
         path: "/contattaci",

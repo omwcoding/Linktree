@@ -38,7 +38,7 @@ const links = ref([
   { name: 'Instagram', url: 'https://instagram.com/bro__users', icon: 'mdi-instagram' },
   { name: 'Wannight Bot', url: 'https://t.me/wannight_bot', icon: 'mdi-telegram' },
   { name: 'Chi siamo', url: '/#/brousers', icon: 'mdi-account' },
-  { name: 'Contatti', url: '/#/contatti', icon: 'mdi-email' },
+  { name: 'Contatti', url: '/#/contattaci', icon: 'mdi-email' },
 ]);
 </script>
 
