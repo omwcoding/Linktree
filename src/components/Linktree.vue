@@ -63,9 +63,28 @@ const links = ref([
   margin-bottom: 8px;
 }
 
+.background-clip {
+  background-clip: text;
+}
+
 .title-card {
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
-  padding: 10px;
+  background: linear-gradient(to right, purple, rgb(29, 123, 154), rgb(112, 255, 112));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+
+.title-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust color and transparency as needed */
+  backdrop-filter: blur(10px); /* Adjust blur radius as needed */
+  z-index: -1;
 }
 </style>
